@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Prompt:wght@500&family=Roboto+Slab:wght@600&display=swap');
+
+/*:root {
+    --cor-primaria: black;
+    --cor-secundaria: red;
+    --cor-terciaria: yellow;
+
+
+    --fonte-primaria:
+    --fonte-secundaria:
+    --fonte-terciaria:
+}
+*/
+
+
+* {
+
+margin: 0;
+padding: 0;
+
+}
+
+body {
+
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+}
+
+
+.cabecalho {
+
+    padding: 2% 0% 0% 15%;
+}
+
+
+.cabecalho__menu {
+
+    display: flex;
+    gap: 80px;
+}
+
+
+.cabecalho__menu__link {
+
+    font-family: 'Montsserast', sans-serif;
+    font-size: 1.06rem;
+    font-weight: 600;
+    color: red;
+    text-decoration: none;
+    
+}
+
+
+.subtitulo__destaque {
+
+    color: white;
+
+}
+
+
+.apresentacao {
+
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+
+}
+
+
+.apresentacao__conteudo {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+
+.apresentacao__conteudo__titulo {
+
+    font-size: 2.25rem;
+    font-family: 'Prompt', sans-serif;
+    
+
+}
+
+
+.titulo-destaque {
+
+    color: red;
+}
+
+
+.apresentacao__conteudo__texto {
+
+    color: yellow;
+    font-size: 1.5rem;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+
+.apresentacao__links {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+
+.apresentacao__links__subtitulo {
+
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+.apresentacao__links__navegacao {
+
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #fa0000; 
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: red;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+
+.apresentacao__links__navegacao:hover {
+
+    background-color: #272727;
+
+}
+
+.apresentacao__imagem {
+
+    width: 40%;
+
+}
+
+
+.rodape {
+
+    padding: 24px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: 400px;
+}
+
+
+@media (max-width: 1055px) {
+
+
+    .cabecalho {
+        padding: 10%;
+    }
+
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+
+}
